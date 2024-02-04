@@ -1,0 +1,24 @@
+.logo{
+    float: right;    
+}
+
+p{
+    text-align: justify;
+}
+
+.italic{
+    font-style: italic;
+    }
+    
+.arrow_left{
+    float: left;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow_right{
+    float: right;
+}
