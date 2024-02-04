@@ -1,0 +1,54 @@
+h2{
+    text-align: center; 
+}
+
+.star{
+    color: red;
+    font-weight: bold;
+}
+
+.fields{
+    margin-bottom: 10px;
+}
+
+.series{
+    width: 50px;
+}
+.birth{
+    margin-bottom: 10px;
+    width: 150px !important;
+}
+
+label{
+    margin-left: 3px;
+}
+
+.nationality{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.vertical{
+    vertical-align: auto;
+}
+
+.pets{
+    width: 200px;
+}
+
+.choice{
+    margin-left: 20px;
+}
+
+button{
+    border: 0;
+    background-color: rgba(28,28,28,0);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
