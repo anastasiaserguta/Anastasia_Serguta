@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заявки на работу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Форма заявки на работу в зоопарке</h2>
+    <p style="text-align: center;"><em>Пожалуйста, заполните форму. 
+        Обязательные поля помечены <span>*</span></em></p>
+
+    <form action="http://fe.it-academy.by/TestForm.php" method="post">
+        <fieldset class="for_info">
+            <legend>Контактная информация</legend>
+            <div class="fields">
+                <label for="NAME">Имя<span>*</span></label>
+                <input type="text" name="NAME" id="NAME" maxlength="20" required>
+            </div>
+            <div class="fields">
+                <label for="PHONE">Телефон</label> 
+                <input type="tel" name="PHONE" id="PHONE" pattern="^(\+375|80)(29|25|44|33)(\d{3})(\d{2})(\d{2})$">
+            </div>
+            <div>
+                <label for="EMAIL">Email<span>*</span></label>
+                <input type="email" name="EMAIL" id="EMAIL" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+                required>
+            </div>
+        </fieldset>
+
+        <fieldset class="for_info">
+            <legend>Персональная информация</legend>
+            <div class="fields">
+                <label for="AGE">Возраст<span>*</span></label>
+                <input type="number" name="AGE" id="AGE" min="18" max="60">
+            </div>
+            <div class="fields">
+                <label for="SEX">Пол</label>
+                <select name="SEX" id="SEX">
+                    <option value="WOMAN">Женщина</option>
+                    <option value="MAN">Мужчина</option>
+                </select>
+            </div>
+            <div class="fields">
+                <label for="PERSONAL QUALITIES">Перечислите личные качества</label>
+                <textarea name="PERSONAL QUALITIES" id="PERSONAL_QUALITIES"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset class="for_info">
+            <legend>Выберите ваших любимых животных</legend>
+            <div class="list">
+                <input type="checkbox" name="zebra" id="zebra">
+                <label class="variats" for="zebra">Зебра</label>
+            </div>
+            <div class="list">
+                <input type="checkbox" name="elephant" id="elephant">
+                <label class="variats" for="elephant">Слон</label>
+            </div>
+            <div class="list">
+                <input type="checkbox" name="cat" id="cat">
+                <label class="variats" for="cat">Кошка</label>
+            </div>
+            <div class="list">
+                <input type="checkbox" name="antelope" id="antelope">
+                <label class="variats" for="antelope">Антилопа</label>
+            </div>
+            <div class="list">
+                <input type="checkbox" name="human" id="human">
+                <label class="variats" for="human">Человек</label>
+            </div>
+            <div class="list">
+                <input type="checkbox" name="snake" id="snake">
+                <label class="variats" for="snake">Анаконда</label>
+            <div class="list">
+                <input type="checkbox" name="crab" id="crab">
+                <label class="variats" for="crab">Краб</label>
+            </div>
+            <div class="list">
+                <input type="checkbox" name="pigeon" id="pigeon">
+                <label class="variats" for="pigeon">Голубь</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <input type="submit" name="SEND" id="SEND">
+        </div>
+
+    </form>
+</body>
+</html>

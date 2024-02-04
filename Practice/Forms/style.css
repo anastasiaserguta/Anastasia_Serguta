@@ -1,0 +1,51 @@
+span{
+    color: red;
+}
+
+label{
+    display: block;
+    float: left;
+    width: 300px;
+    height: 15px;
+}
+
+input{
+    width: 400px;
+    height: 20px;
+}
+
+.for_info{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.fields{
+    margin-bottom: 20px;
+    position: center;
+    width: auto;
+    height: auto;
+}
+
+select{
+    width: 409px;
+    height: 25px;
+}
+
+textarea{
+    width: 405px;
+    height: 150px;
+}
+
+.variats{
+    width: 0px !important;
+}
+
+#SEND{
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    height: 40px;
+}
+
+
+

@@ -1,0 +1,39 @@
+.italic{
+    font-style: italic;
+    margin: 5px;
+}
+
+div{
+    padding-bottom: 5px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+table{
+    width: 750px;
+    margin: auto;
+    display: block;
+}
+
+td{
+    width: auto;
+    vertical-align: top;
+}
+
+button{
+    margin: 5px;
+}
+
+textarea{
+    width: auto;
+    height: auto;
+}
+
+.form_6{
+    display: inline-block;
+    vertical-align: bottom !important;
+}
+
+
