@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+}
+
+h3{
+    font-family: 'Mulish';
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+}
+
+.birth{
+    text-indent: 0px;
+}
+
+.achieves{
+    text-indent: 0px;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'PT Sans Narrow';
+    text-align: justify;
+    text-indent: 30px;
+}
+
+a{
+    display: none;
+}
+
