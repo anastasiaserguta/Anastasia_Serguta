@@ -1,0 +1,39 @@
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+span{
+    font-style: italic;
+}
+
+.destination{
+    text-align: right;
+    font-family: 'Cormorant Garamond';
+    line-height: 20px;
+}
+
+h2{
+    font-family: 'Marck Script';
+    font-weight: bold;
+    text-indent: 50px;
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'Marck Script';
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+.end{
+    font-family: 'Cormorant Garamond';
+    text-indent: 0px;
+}
