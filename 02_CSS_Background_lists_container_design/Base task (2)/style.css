@@ -1,0 +1,23 @@
+ol{
+    width: 350px;
+    list-style-type: upper-roman;
+}
+
+.list_inside{
+    list-style-type: lower-roman;
+    text-align: justify;
+}
+
+.code{
+    font-family: monospace;
+    max-height: max-content;
+    background-color: black;
+    color: green;
+    width: 400px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+
+

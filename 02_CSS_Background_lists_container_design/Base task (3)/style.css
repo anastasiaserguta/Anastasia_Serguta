@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    border: 1px solid gray;
+    height: auto;
+    background-color: bisque;
+}
+
+.nav{
+    width: 15em;
+    background-color: lightblue;
+    float: left;
+    clear: right;
+}
+
+.article{
+    width: auto;
+    height: auto;
+    margin-left: 15em;
+    background-color: lightpink;
+    margin-bottom: 2em;
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.footer{
+    height: auto;
+    background-color: aquamarine;
+    clear: both;
+    text-align: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    clear: right;
+}
+

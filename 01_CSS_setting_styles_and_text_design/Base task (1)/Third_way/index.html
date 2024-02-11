@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Программа на Python - Часть 1</title>
+    <style> @import './styles/style_screen.css' screen; </style>
+    <style> @import './styles/style_print.css' print; </style>
+</head>
+
+<body>
+
+    <img class="logo" src="images/python_logo.svg" width="250px" height="300px" alt="Python лого" title="Логотип Python (появился в 2006 году)">
+    <h2 style="text-align: center;">HOW-TO: Программа на Python, Часть 1</h2>
+    
+    <ul>
+        <li><a class="italic" href="index.html">Программа на Python — часть 1</a></li>
+        <li><a class="italic" Программа href="section_2.html">Программа на Python — часть 2</a></li>
+        <li><a class="italic" Программа href="section_3.html">Программа на Python — часть 3</a></li>
+    </ul>
+
+    <h2><a name="content">Содержание</a></h2>
+
+    <h3>HOW-TO: Программа на Python, Часть 1</h3>
+
+    <ul>
+        <li><a href="#our_first_program">Наша первая программа</a></li>
+        <li><a href="#example_for_loop">Пример цикла For</a></li>
+    </ul>
+
+    <p>Из множества существующих языков программирования Python — один из самых лёгких
+        в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+        Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+        обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+        создание консольных приложений, а в следующей — программирование графических
+        интерфейсов (<u>GUI</u>). Давайте создадим простую программу прямо сейчас.</p>
+
+    <h2><a name="our_first_program">Наша первая программа</a></h2>
+
+    <p><a href="#content">К содержанию</a></p>
+
+    <p>Наберём код в текстовом редакторе (например, в <strong>gedit</strong>). Потом мы разберёмся, что делает
+        каждая строка и пойдём дальше.</p>
+
+    <p>Введите эти 4 строки:</p>
+
+    <pre><code>
+    #!/usr/bin/env python
+    print 'Hello. I am a python program.'
+    name = raw_input("What is your name?")
+    print "Hello there, " + name + "!"
+    </code></pre>
+
+    <p>Это всё. Сохраните файл как <strong>hello.py</strong> в любом месте. Я предлагаю сохранить его в папке
+        <strong>python_examples</strong> в домашнем каталоге. Этот пример показывает, как просто написать
+        программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+        этого введите в терминале <br><br><strong><u><i><code>chmod +x hello.py</code></i></u></strong>
+        <br><br>в папке, в которой вы сохранили программу. Теперь запустите её.</p>
+
+    <pre><code>
+    greg@earth:~/python_examples$ ./hello.py
+    Hello. I am a python program.
+    What is your name? Ferd Burphel
+    Hello there, Ferd Burphel!
+    greg@earth:~/python_examples$
+    </code></pre>
+
+    <p>Вот и всё.</p>
+
+    <h2><a name="example_for_loop">Пример цикла For</a></h2>
+
+    <p><a href="#content">К содержанию</a></p>
+
+    <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+        редактор и наберите следующую программу:</p>
+
+    <pre><code>
+    #!/usr/bin/env python
+    for cntr in range(0,10):
+        print cntr
+    </code></pre>
+
+    <p><i>Не забудьте поставить символ табуляции перед строкой «print cntr».</i> Это важно. В
+        Python для указания на блоки кода используются не круглые «&#40;» и фигурные «&#123;» скобки
+        как в других языках программирования, а отступы.</p>
+
+    <table width="100%">
+        <tr>
+            <td>
+                <div class="arrow_left"><a href=""><img src="images/back.svg" width="80px" height="70px" alt="Предыдущая страница" title="Предыдущая страница (отсутствует)"></a></div>
+            </td>
+            <th>
+                <div class="center"><a href="#content"><img src="images/home.svg" width="150px" height="150px" alt="Содержание" title="Перейти к содержанию"></a></div>
+            </th>
+            <td>
+                <div class="arrow_right"><a href="section_2.html"><img src="images/forward.svg" width="80px" height="70px" alt="Следующая страница" title="Следующая страница"></a></div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

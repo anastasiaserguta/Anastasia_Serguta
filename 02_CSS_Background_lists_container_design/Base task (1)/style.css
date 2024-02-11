@@ -1,0 +1,80 @@
+.main{
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_col{
+    display: inline-block;
+    flex: none;
+    height: 188px;
+    width: 137px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 23px;
+    background-image: url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+                        url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+                        url(cards.png), url(cards.png), url(cards.png), url(cards.png);
+    background-repeat: no-repeat;
+    background-position: 0px -2188px, 0px -1989px, 0px -1789px, 0px -1591px, 0px -1393px, 0px -1194px, 0px -994px, 0px -795px, 0px -597px, 0px -397px, 0px -197px, 0px 0px;
+}
+
+.s_col{
+    display: inline-block;
+    flex: none;
+    height: 188px;
+    width: 137px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 23px;
+    background-image: url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+    url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+    url(cards.png), url(cards.png), url(cards.png), url(cards.png);
+    background-repeat: no-repeat;
+    background-position: -144px -2188px, -144px -1989px, -144px -1789px, -144px -1591px, -144px -1393px, -144px -1194px, -144px -994px, -144px -795px, -144px -597px, -144px -397px, -144px -197px, -144px 0px;
+}
+
+.t_col{
+    display: inline-block;
+    flex: none;
+    height: 188px;
+    width: 137px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 23px;
+    background-image: url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+    url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+    url(cards.png), url(cards.png), url(cards.png), url(cards.png);
+    background-repeat: no-repeat;
+    background-position: -287px -2188px, -287px -1989px, -287px -1789px, -287px -1591px, -287px -1393px, -287px -1194px, -287px -994px, -287px -795px, -287px -597px, -287px -397px, -287px -197px, -287px 0px;
+}
+
+.f_col{
+    display: inline-block;
+    flex: none;
+    height: 188px;
+    width: 137px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 23px;
+    background-image: url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+    url(cards.png), url(cards.png), url(cards.png), url(cards.png),
+    url(cards.png), url(cards.png), url(cards.png), url(cards.png);
+    background-repeat: no-repeat;
+    background-position: -431px -2188px, -431px -1989px, -431px -1789px, -431px -1591px, -431px -1393px, -431px -1194px, -431px -994px, -431px -795px, -431px -597px, -431px -397px, -431px -197px, -431px 0px;
+}
+
+.last_col{
+    display: inline-block;
+    flex: none;
+    height: 188px;
+    width: 137px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 23px;
+    background-image: url(cards.png), url(cards.png);
+    background-repeat: no-repeat;
+    background-position: -287px bottom, 0px bottom;
+}
