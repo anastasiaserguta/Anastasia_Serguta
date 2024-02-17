@@ -1,0 +1,27 @@
+.way1{
+    padding: 50px;
+    background-image: url(border/img/left_top.png), url(border/img/right_top.png), url(border/img/right_bottom.png), url(border/img/left_bottom.png), url(border/img/left_right.png), url(border/img/right_left.png), url(border/img/top_bottom.png), url(border/img/top_bottom.png);
+    background-position: left top, right top, right bottom, left bottom, top, bottom, right, left;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+}
+
+.way2{
+    padding: 20px;
+    border: 40px solid black;
+    border-image: url(border/img/ramka.png) 40 repeat;
+}
+
+.way3 p{
+    padding: 40px;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+hr{
+    border: 3px dashed black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
