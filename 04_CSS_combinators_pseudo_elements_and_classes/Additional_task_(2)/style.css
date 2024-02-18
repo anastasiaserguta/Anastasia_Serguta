@@ -1,0 +1,36 @@
+div{
+    padding: 2px;
+}
+
+table{
+    margin: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    counter-reset: sheet 65;
+}
+
+td{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+tr:nth-child(odd) td:nth-child(odd){
+    color: white;
+    background-color: black;
+}
+
+tr:nth-child(even) td:nth-child(even){
+    color: white;
+    background-color: black;
+}
+
+td::before{
+    content: counter(sheet);
+    counter-increment: sheet -1;
+}
+
+
+
