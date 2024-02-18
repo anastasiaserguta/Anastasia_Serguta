@@ -1,0 +1,45 @@
+.main_content p{
+    border: 1px solid gray;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+a{
+    pointer-events: none;
+}
+
+a[href$='.doc']::before, a[href$='.pdf']::before, a[href$='.zip']::before{
+    content: url(img/arrow.png);
+} 
+
+a[href='word']::after{
+    content: url(img/word.jpg);
+}
+
+a[href='pdf']::after{
+    content: url(img/pdf.png);
+}
+
+a[href='zip']::after{
+    content: url(img/zip.gif);
+}
+
+.files::before{
+    content: url(img/file.jpg);
+}
+
+a#word_icon:hover::after{
+    content: url(img/word.jpg);
+}
+
+a#pdf_icon:hover::after{
+    content: url(img/pdf.png);
+}
+
+a#zip_icon:hover::after{
+    content: url(img/zip.gif);
+}
