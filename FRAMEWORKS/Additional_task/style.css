@@ -1,0 +1,27 @@
+a{
+    font-style: italic;
+    text-decoration: underline;
+    pointer-events: none;
+}
+
+code{
+    white-space: wrap;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
