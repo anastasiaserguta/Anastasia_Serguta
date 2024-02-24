@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Проверка пароля</title>
+</head>
+<body>
+    <h2>Проверка пароля</h2>
+    <form action="">
+        <fieldset>
+            <div>
+                <input class="password" type="text" id="first_var">
+                <label for="first_var" class="star">*</label>
+                <label for="first_var">Пароль</label>
+            </div>
+            <div>
+                <input class="password" type="text" id="second_var">
+                <label for="second_var" class="star">*</label>
+                <label for="second_var">Повторите пароль</label>
+            </div>
+            <input class="button" type="submit" disabled>
+        </fieldset>
+    </form>
+
+    <script>
+
+        $(document).ready(function(){
+            $('div').on('keyup', function(){
+            value_1 = $('#first_var').val();
+            value_2 = $('#second_var').val();
+            
+            if (value_1 != value_2){
+                $('.password').css('backgroundColor', 'red');
+                    } else{
+                    $('.password').css('backgroundColor', 'green');
+                    $('.button').removeAttr('disabled');
+                        };
+        })});
+
+    </script>
+</body>
+</html>

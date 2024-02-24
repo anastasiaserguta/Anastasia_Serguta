@@ -1,0 +1,16 @@
+div, [type='submit']{
+    margin: 10px;
+}
+
+.star{
+    color: red;
+}
+
+/* .password{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+} */
+
