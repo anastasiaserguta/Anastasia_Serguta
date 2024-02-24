@@ -1,0 +1,39 @@
+table{
+    width: 100%;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+th{
+    background-color: gray;
+    border: 2px solid white;
+}
+
+td{
+    border: 2px dotted gray;
+}
+
+p{
+    text-align: center;
+    padding: 0;
+}
+
+table tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+table tr:hover{
+    background-color: lightpink;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    font-family: sans-serif;
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+}
